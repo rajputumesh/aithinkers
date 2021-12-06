@@ -55,6 +55,73 @@
     border-color: white;
 }
 
+.form-check {
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 1.5em;
+    margin-bottom: 0.125rem;
+}
+
+.form-check-input[type=radio] {
+    border-radius: 50%;
+}
+
+.form-check .form-check-input {
+    float: left;
+    margin-left: -1.5em;
+}
+
+.form-check-input,
+.form-check-label {
+    cursor: pointer;
+}
+
+.form-check-input {
+    width: 1em;
+    height: 1em;
+    margin-top: 0.25em;
+    vertical-align: top;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid rgba(0, 34, 28, .1);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.form-check-custom .form-check-input:checked[type=checkbox],
+.form-check-custom .form-check-input:checked[type=radio] {
+    background-image: url(data:image/svg+xml,%3csvg viewBox='0 0 18 18' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M13.3035 4.76425C13.5718 4.44865 14.0451 4.41027 14.3607 4.67853C14.6763 4.9468 14.7147 5.42012 14.4464 5.73572L8.07144 13.2357C7.79896 13.5563 7.31616 13.5901 7.00171 13.3105L3.62671 10.3105C3.31713 10.0354 3.28924 9.5613 3.56443 9.25172C3.83962 8.94213 4.31367 8.91424 4.62326 9.18943L7.42515 11.68L13.3035 4.76425Z' fill='%23fff'/%3e%3c/svg%3e);
+}
+
+.form-check-input:checked[type=radio] {
+    background-image: url(data:image/svg+xml,%3csvg viewBox='0 0 18 18' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M13.3035 4.76425C13.5718 4.44865 14.0451 4.41027 14.3607 4.67853C14.6763 4.9468 14.7147 5.42012 14.4464 5.73572L8.07144 13.2357C7.79896 13.5563 7.31616 13.5901 7.00171 13.3105L3.62671 10.3105C3.31713 10.0354 3.28924 9.5613 3.56443 9.25172C3.83962 8.94213 4.31367 8.91424 4.62326 9.18943L7.42515 11.68L13.3035 4.76425Z' fill='%23fff'/%3e%3c/svg%3e);
+}
+
+.form-check-input:checked {
+    background-color: #008060;
+}
+
+.form-check-input:checked {
+    background-color: #008060;
+    border-color: #008060;
+}
+
 .space-y {
     padding: 0em 0px;
 }
